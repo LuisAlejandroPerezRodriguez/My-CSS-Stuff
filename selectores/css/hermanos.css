@@ -1,0 +1,12 @@
+/* Selector de hermano siguiente */
+
+.title-1 + .text-1{
+    background-color: aqua;
+    /* La etiqueta que esta debajo de de title 1. Son 
+    hermanos porque estan dentro de la misma etiqueta que es body.*/
+}
+
+.title-2 ~ .text{
+    background-color: steelblue;
+    /* Esto selecciones todos los hermanos con la misma etiqueta o misma clase sin importar lo que este en medio.*/
+} 

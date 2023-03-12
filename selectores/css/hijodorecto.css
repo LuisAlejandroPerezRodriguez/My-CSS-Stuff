@@ -1,0 +1,5 @@
+.contenedor >  p {
+    background-color: blue;
+/* Solamente selecciones a los que son hijos de la clase contenedor no los nietos, por eso se llama hijo directo*/
+
+}
