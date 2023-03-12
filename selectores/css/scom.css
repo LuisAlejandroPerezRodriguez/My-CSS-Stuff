@@ -1,0 +1,17 @@
+.title-1,
+.title-2 {
+  background-color: aqua;
+}
+.text-1,
+.text-2 {
+  background-color: chartreuse;
+}
+
+/* Selector descendiente*/
+div .title-3{
+    background-color: rgba(104, 173, 233, 0.494);
+}
+
+.title-3{
+    background-color: rgba(132, 239, 160, 0.781);
+}
