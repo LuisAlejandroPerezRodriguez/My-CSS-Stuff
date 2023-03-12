@@ -1,0 +1,71 @@
+/* Como funciona css ?
+
+* Especificidad -> Establece como de especifico es un selector para saber que estilo aplicar. El calculo se realiza con la siguiente formula:
+
+- Etiquetas y pseudoelementos 0,0,1
+- Clases, atributos y pseudoclases 0,1,0
+- Id's 1,0,0
+- Estilos en linea 1,0,0,0
+!important GANA A TODO Y NO SE USA NUNCA YA QUE ROMPE MI CSS
+
+*Cascada-> Funciona siempre que la especifidad sobre la regla sea la misma.
+
+*Herencia -> Es la capacidad que tienen algunos elementos de heredar algunas propiedades de sus elementos contenedores (padres,abuelos,etc)
+
+*/
+body{
+    background-color: #333;
+}
+
+h1{
+    background-color: red;
+}
+
+.title{
+    background-color: blue;
+}
+
+#title{
+    background-color: green;
+}
+
+h1.title{
+    background-color: yellow;
+}
+
+h1#title{
+    background-color: teal;
+}
+
+h1.title#title{
+    background-color: tomato;
+}
+
+/* Si nos fijamos la especifidad del selecotr es la misma por ende la cascada funciona.*/
+
+.title-1{
+    background-color: yellow;
+}
+
+.title-1{
+    background-color: rgb(235, 235, 183);
+}
+
+/* Herencia*/
+.text{
+    color: blue;
+    font-size: 20px;
+}
+
+.link{
+    color: inherit;
+}
+
+.list{
+    color: salmon;
+    font-size: 30px;
+}
+
+.list-item-extra{
+    color: initial;
+}
