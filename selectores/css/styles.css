@@ -1,0 +1,37 @@
+/*
+
+Selectores Simples
+    Selectores elementales
+        Selector universal -> *
+        Selector de tipo etiqueta -> nombre de la etiqueta
+    Selectores de atributo
+        id -> id del elemento
+        clase -> clase del elemento
+        otros atributos
+Selectores Compuestos
+    Selectores Agrupados
+    Selectores Combinadores
+    Pseudoclses - Pseudelementos
+*/
+
+* {
+  background-color: lightblue;
+  /* Este selector selecciona todos los elementos*/
+}
+
+h1 {
+  background-color: crimson;
+}
+
+p {
+  background-color: darkkhaki;
+}
+
+#titulo {
+  background-color: chartreuse;
+  /* No es muy recomendable usar id para dar estilos*/
+}
+
+.parrafo {
+  background-color: blue;
+}
